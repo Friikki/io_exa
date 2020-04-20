@@ -9,7 +9,7 @@ function loadDoc(page) {
     xhttp.open("GET", page, true);
     xhttp.send();
   }
-  
+
   window.onload=function loadFirst() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -20,4 +20,3 @@ function loadDoc(page) {
     xhttp.open("GET", "page1.html", true);
     xhttp.send();
   }
-  
